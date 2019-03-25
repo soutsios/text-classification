@@ -5,4 +5,5 @@ Emails are modeled using two types of text representation. The first one is a ba
 
 We choose to experiment with five algorithms: Logistic Regression (LR), SGD, Naïve Bayes (NB), Nearest Neighbors (KNN) and SVM. Also a baseline Dummy classifier predicting always the majority class (ham) is used for comparison.
 
+So in this work we make 25 experiments in total (5 methods x 5 classifiers). A summarization of our system and inner-code working is shown in following figure:
 ![alt text](https://github.com/soutsios/text-classification/blob/master/inner-working.png)
