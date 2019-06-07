@@ -22,3 +22,6 @@ The Bag-of-Words representation method **TC (1,1)** seems to have very good resu
 As for the Centroids-of-Word-Embeddings representation we observe that TFIDF weighting doesn’t offer much advance over the simpler mean averaging of word embeddings. Using custom word-vectors generated from the corpus at hand (Enron dataset) are likely to yield better quality classification results.
 
 A very interesting point is that KNN even it has the lowest AUC scores it seems the best choice when we are interested only in low number of False Positives, ignoring the number of False Negatives (it hurts more when we predict a ham email as spam).
+
+## Acknowledgement
+<a href="https://eclass.aueb.gr/courses/INF210/">Natural Language Processing</a> course is part of the MSc in Computer Science of the Department of Informatics, <a href="https://aueb.gr/en">Athens University of Economics and Business</a>. The course covers algorithms, models and systems that allow computers to process natural language texts and/or speech.
